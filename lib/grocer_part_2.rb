@@ -34,8 +34,7 @@ def apply_clearance(cart)
  if cart[counter][:clearance]
    cart[counter][:price] = 
    
-  else 
- 
+ end   
  counter += 1 
  end 
 end
