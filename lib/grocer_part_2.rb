@@ -30,6 +30,7 @@ require 'pry'
 # end 
 
 def apply_coupons(cart, coupons)
+  coupons.each do |coupon|
   name = coupon[:item] 
 
   if cart[name] && cart[name][:count] >= coupon[:num]
